@@ -1,0 +1,223 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_EXPORT DIALOGEX 0, 0, 485, 293
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "微软雅黑", 400, 0, 0x86
+BEGIN
+    CONTROL         "导出",IDOK,"Button",BS_OWNERDRAW | WS_TABSTOP,7,218,471,68
+    GROUPBOX        "动作列表",IDC_STATIC,228,86,241,97
+    GROUPBOX        "Output",IDC_STATIC,7,8,139,76
+    CONTROL         "顶点压缩",IDC_USE_VERTEX_COMPRESS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,160,25,43,8
+    CONTROL         "导出第二套UV",IDC_EXPORT_UV2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,304,26,56,8
+    CONTROL         "导出顶点颜色",IDC_EXPORT_VERTEX_COLOR,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,304,40,67,8
+    GROUPBOX        "目录设置",IDC_STATIC,7,86,217,97
+    LTEXT           "工作目录:",IDC_STATIC,10,102,30,8
+    EDITTEXT        IDE_WORK_DIR,66,100,132,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDB_SET_WORKDIR,200,100,20,12
+    LTEXT           "Mesh存放目录:",IDC_STATIC,11,119,48,8
+    EDITTEXT        IDE_MESH_DIR,66,117,132,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDB_SET_MESHDIR,200,117,20,12
+    LTEXT           "Bone存放目录:",IDC_STATIC,11,136,48,8
+    EDITTEXT        IDE_BONE_DIR,66,134,132,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDB_SET_BONEDIR,200,134,20,12
+    LTEXT           "Testure存放目录:",IDC_STATIC,11,153,53,8
+    EDITTEXT        IDE_TEXTURE_DIR,66,151,132,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDB_SET_TEXTUREDIR,200,151,20,12
+    CONTROL         "",IDC_ACTION_LIST,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,231,95,144,84
+    LTEXT           "动作名：",IDC_STATIC,386,94,28,8
+    LTEXT           "起始帧：",IDC_STATIC,386,110,27,8
+    LTEXT           "结束帧：",IDC_STATIC,386,125,28,8
+    EDITTEXT        IDC_ACTION_NAME,431,92,35,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ACTION_STARTTIME,431,107,35,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_ACTION_ENDTIME,431,122,35,12,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "添加",IDC_ACTION_ADD,380,154,37,12
+    PUSHBUTTON      "删除",IDC_ACTION_DELETE,427,154,37,12
+    PUSHBUTTON      "修改",IDC_ACTION_MODIFY,380,168,37,12
+    PUSHBUTTON      "清空",IDC_ACTION_CLEAR,427,168,37,12
+    PUSHBUTTON      "恢复默认设置",IDB_DEFAULT_SETTING,434,2,48,12
+    LTEXT           "动作文件编号",IDC_STATIC,386,139,42,8
+    EDITTEXT        IDC_ACTION_FILENO,431,137,35,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Static Mesh",IDC_USE_STATIC_MESH,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,16,25,55,8
+    GROUPBOX        "Compression",IDC_STATIC,148,8,139,76
+    CONTROL         "动画数据压缩",IDC_USE_ANIMATION_COMPRESS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,160,42,52,8
+    CONTROL         "材质关键帧压缩",IDC_USE_MATERIAL_COMPRESS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,160,59,58,8
+    GROUPBOX        "Option",IDC_STATIC,289,8,139,76
+    LTEXT           "Scale:",IDC_STATIC,78,25,26,8
+    EDITTEXT        IDE_ZOOM_RATIO,106,24,28,12,ES_AUTOHSCROLL
+END
+
+IDD_ACTION_MODIFY_DLG DIALOGEX 0, 0, 106, 93
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "动作修改"
+FONT 10, "微软雅黑", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "修改",IDB_ACTIONLIST_MODIFY,59,73,40,13
+    LTEXT           "动作名：",IDC_STATIC,10,10,37,12
+    LTEXT           "起始点：",IDC_STATIC,10,26,36,12
+    LTEXT           "结束点：",IDC_STATIC,10,42,37,8
+    EDITTEXT        IDC_ACTION_NAME,52,10,47,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ACTION_STARTTIME,52,25,47,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_ACTION_ENDTIME,52,40,47,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "动作文件编号",IDC_STATIC,10,57,45,8
+    EDITTEXT        IDC_ACTION_FILENO,52,55,47,12,ES_AUTOHSCROLL | ES_NUMBER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG_EXPORT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 478
+        BOTTOMMARGIN, 286
+    END
+
+    IDD_ACTION_MODIFY_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 99
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 86
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英语(美国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PANEL DIALOGEX 0, 0, 108, 156
+STYLE DS_SETFONT | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    CTEXT           "Generated by SGP Engine\nDesigned by xyweng",IDC_STATIC,7,7,94,36
+    PUSHBUTTON      "Export to SGP Engine",IDC_BUTTON_EXPORT,7,32,94,116
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_PANEL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 101
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 148
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_LIBDESCRIPTION      "SGPMAX9Plugin"
+    IDS_CATEGORY            "Exporter"
+    IDS_CLASS_NAME          "SGP_MAX9Plugins"
+    IDS_PARAMS              "Parameters"
+    IDS_SPIN                "Spin"
+END
+
+#endif    // 英语(美国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

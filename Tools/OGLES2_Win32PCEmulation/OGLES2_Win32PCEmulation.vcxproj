@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1E25F48B-D41B-4433-A286-625A9CEDDC3E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>OGLES2_Win32PCEmulation</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)..\..\Bin\$(Configuration)\OpenGLES2\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)..\..\Bin\$(Configuration)\OpenGLES2\</OutDir>
+    <IntDir>.\Release\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>BUILD_OGLES2;WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\SGPLibraryCode\;..\..\OtherLib\FreeType\include\;..\..\OtherLib\OpenGLES2\Include\;..\..\OtherLib\OpenGLES2\Shell\;..\..\OtherLib\OpenGLES2\Shell\API\KEGL\;..\..\OtherLib\OpenGLES2\Shell\OS\Windows\;..\..\OtherLib\VLD\include\</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\..\OtherLib\OpenGLES2\Lib;..\..\OtherLib\VLD\lib\Win32</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libEGL.lib;libGLESv2.lib;vld.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>BUILD_OGLES2;WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\SGPLibraryCode\;..\..\OtherLib\FreeType\include\;..\..\OtherLib\OpenGLES2\Include\;..\..\OtherLib\OpenGLES2\Shell\;..\..\OtherLib\OpenGLES2\Shell\API\KEGL\;..\..\OtherLib\OpenGLES2\Shell\OS\Windows\</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>..\..\OtherLib\OpenGLES2\Lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libEGL.lib;libGLESv2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\OtherLib\OpenGLES2\Shell\API\KEGL\PVRShellAPI.cpp" />
+    <ClCompile Include="..\..\OtherLib\OpenGLES2\Shell\OS\Windows\PVRShellOS.cpp" />
+    <ClCompile Include="..\..\OtherLib\OpenGLES2\Shell\PVRShell.cpp" />
+    <ClCompile Include="..\..\SGPLibraryCode\modules\sgp_core\sgp_core.cpp" />
+    <ClCompile Include="..\..\SGPLibraryCode\modules\sgp_math\sgp_math.cpp" />
+    <ClCompile Include="..\..\SGPLibraryCode\modules\sgp_model\sgp_model.cpp" />
+    <ClCompile Include="..\..\SGPLibraryCode\modules\sgp_particle\sgp_particle.cpp" />
+    <ClCompile Include="..\..\SGPLibraryCode\modules\sgp_render\sgp_render.cpp" />
+    <ClCompile Include="..\..\SGPLibraryCode\modules\sgp_world\sgp_world.cpp" />
+    <ClCompile Include="OGLES2_Win32.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\OtherLib\OpenGLES2\Shell\API\KEGL\PVRShellAPI.h" />
+    <ClInclude Include="..\..\OtherLib\OpenGLES2\Shell\OS\Windows\PVRShellOS.h" />
+    <ClInclude Include="..\..\OtherLib\OpenGLES2\Shell\PVRShell.h" />
+    <ClInclude Include="..\..\OtherLib\OpenGLES2\Shell\PVRShellImpl.h" />
+    <ClInclude Include="OGLES2_Win32.h" />
+    <ClInclude Include="OGLES2_Win32Camera.h" />
+    <ClInclude Include="OGLES2_Win32Logger.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

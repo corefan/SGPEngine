@@ -1,0 +1,731 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MainWindow">
+      <UniqueIdentifier>{309c6795-04f2-45a0-b0c4-42b1fc88eb3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LogViewer Pane">
+      <UniqueIdentifier>{78e5b7ac-1699-410b-8302-8d8417bb807b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Files">
+      <UniqueIdentifier>{61e2f672-4386-43ff-878c-6b15b1617760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Setting Pane">
+      <UniqueIdentifier>{200e6a13-95c3-434f-bef9-5da44437d9ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorldEditor Config">
+      <UniqueIdentifier>{104df684-3559-409e-8652-8153eaa11b02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Operation Manager">
+      <UniqueIdentifier>{866f5748-f364-42d4-8700-da0dee1511bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture Info">
+      <UniqueIdentifier>{859441e4-1fd0-4ad2-9f13-b37909d3851b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor Panel">
+      <UniqueIdentifier>{bed9c42e-7b77-498e-96c2-79c469c9a773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor Panel\Terrain Editor">
+      <UniqueIdentifier>{31ea9361-51e3-4bd2-a652-86af1fc81198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor Panel\Terrain Editor\Terrain Height">
+      <UniqueIdentifier>{42d06f65-74e2-4339-98f1-95c535da3f0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor Panel\Terrain Editor\Terrain Texture">
+      <UniqueIdentifier>{38b4c509-cdaf-44e4-8ab3-631bedcb7d8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor Panel\Terrain Editor\Terrain Grass">
+      <UniqueIdentifier>{c973a8ed-8449-45f9-acd0-1452b3bd0f9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor Panel\Terrain Editor\Terrain Water">
+      <UniqueIdentifier>{4b906d02-a12c-48bb-8b55-f59c2ae1bc27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor Panel\Scene Editor">
+      <UniqueIdentifier>{a3a0e421-dbf7-497d-9102-1d6aa11ae23e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor Panel\Scene Editor\Skydome">
+      <UniqueIdentifier>{02ea81f5-0126-40ac-9663-acf1ed2ddc63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor Panel\Scene Editor\Object">
+      <UniqueIdentifier>{d278a139-4ae8-4394-9767-a8cdbcf94604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor Panel\Scene Editor\Object\Object Explorer">
+      <UniqueIdentifier>{5b577eba-98bc-4e98-a665-3fd815fa1719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor Panel\Scene Editor\Object\Object Handler">
+      <UniqueIdentifier>{0766385a-b690-4b40-8367-54dc1d116606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor Panel\Scene Editor\Object\Object Operation">
+      <UniqueIdentifier>{ca11e185-962b-47e7-acdd-8320e0b12aca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Save &amp; Load">
+      <UniqueIdentifier>{835bdffa-74ed-46bc-aa1b-4a04c8fb6fdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Save &amp; Load\Multi-Platform">
+      <UniqueIdentifier>{0537c309-077e-4d00-97c3-6a2bc5a91b75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Save &amp; Load\Lightmap">
+      <UniqueIdentifier>{56b8e51e-f20f-47d3-b0a6-6b813712fa36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor Panel\Scene Editor\Object\Object Find">
+      <UniqueIdentifier>{10d9b305-6aea-417f-99df-6283055f6765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor Panel\Scene Editor\Object\Object Attribute">
+      <UniqueIdentifier>{8579e680-00f9-4641-978e-607526778fd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render Interface">
+      <UniqueIdentifier>{9589c460-c322-44f6-afd8-b2fc3978a10d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render Interface\Engine Files">
+      <UniqueIdentifier>{7b22f3cc-74b7-46e4-b99a-66d4c4c244ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="UserImages.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SGP_WorldEditor.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SGP_WorldEditorDoc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SGP_WorldEditor.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\..\DRAGCOPY.CUR">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\DRAGCOPY.CUR">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\file icon.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Move.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Rotate.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Scale.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\obj icon.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bmp00001.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrame.h">
+      <Filter>MainWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldEditorDoc.h">
+      <Filter>MainWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldEditorView.h">
+      <Filter>MainWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Render Interface\WorldEditorRender.h">
+      <Filter>Render Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Render Interface\WorldEditorRenderInterface.h">
+      <Filter>Render Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Render Interface\WorldEditorCamera.h">
+      <Filter>Render Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="LogViewer Pane\LogViewerEdit.h">
+      <Filter>LogViewer Pane</Filter>
+    </ClInclude>
+    <ClInclude Include="LogViewer Pane\RichEditLogger.h">
+      <Filter>LogViewer Pane</Filter>
+    </ClInclude>
+    <ClInclude Include="LogViewer Pane\LogViewerPane.h">
+      <Filter>LogViewer Pane</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SGP_ModelViewer\CommonVisualManager.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpFunction.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene Explorer\SceneExplorerPane.h">
+      <Filter>Editor Panel\Scene Editor\Object\Object Explorer</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain Editor\TerrainEditorPane.h">
+      <Filter>Editor Panel\Terrain Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Setting Pane\SettingDlg.h">
+      <Filter>Setting Pane</Filter>
+    </ClInclude>
+    <ClInclude Include="Setting Pane\SettingPane.h">
+      <Filter>Setting Pane</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldEditorConfig.h">
+      <Filter>WorldEditor Config</Filter>
+    </ClInclude>
+    <ClInclude Include="IOperation.h">
+      <Filter>Operation Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="OperationManager.h">
+      <Filter>Operation Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SGP_ModelViewer\ExpandButton.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SGP_ModelViewer\ParamIndicator.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainEditorDlg.h">
+      <Filter>Editor Panel\Terrain Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="FocusButton.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageCtrl.h">
+      <Filter>Editor Panel\Terrain Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="ThumbnailGenerator.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureInfoDlg.h">
+      <Filter>Texture Info</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageStatic.h">
+      <Filter>Texture Info</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageShowDlg.h">
+      <Filter>Texture Info</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SGP_ModelViewer\RoundButton.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainHeightHandler.h">
+      <Filter>Editor Panel\Terrain Editor\Terrain Height</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainHeightDlg.h">
+      <Filter>Editor Panel\Terrain Editor\Terrain Height</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainHeightOperation.h">
+      <Filter>Editor Panel\Terrain Editor\Terrain Height</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainTextureDlg.h">
+      <Filter>Editor Panel\Terrain Editor\Terrain Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainTextureHandler.h">
+      <Filter>Editor Panel\Terrain Editor\Terrain Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainTextureLoadDlg.h">
+      <Filter>Editor Panel\Terrain Editor\Terrain Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainTextureOperation.h">
+      <Filter>Editor Panel\Terrain Editor\Terrain Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainGrassDlg.h">
+      <Filter>Editor Panel\Terrain Editor\Terrain Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainWaterDlg.h">
+      <Filter>Editor Panel\Terrain Editor\Terrain Water</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureListCtrl.h">
+      <Filter>Editor Panel\Terrain Editor\Terrain Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainGrassHandler.h">
+      <Filter>Editor Panel\Terrain Editor\Terrain Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainGrassOperation.h">
+      <Filter>Editor Panel\Terrain Editor\Terrain Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainWaterHandler.h">
+      <Filter>Editor Panel\Terrain Editor\Terrain Water</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainWaterOperation.h">
+      <Filter>Editor Panel\Terrain Editor\Terrain Water</Filter>
+    </ClInclude>
+    <ClInclude Include="GrassListCtrl.h">
+      <Filter>Editor Panel\Terrain Editor\Terrain Grass</Filter>
+    </ClInclude>
+    <ClInclude Include="WaterImageCtrl.h">
+      <Filter>Editor Panel\Terrain Editor\Terrain Water</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneEditorDlg.h">
+      <Filter>Editor Panel\Scene Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="FolderDialog.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObjectDlg.h">
+      <Filter>Editor Panel\Scene Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldEditor.h">
+      <Filter>MainWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SGP_ModelViewer\ColorButton.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldMapManager.h">
+      <Filter>Save &amp; Load</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseMsgHandler.h">
+      <Filter>Editor Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseMsgInterface.h">
+      <Filter>Editor Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorPane.h">
+      <Filter>Editor Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorTabCtrl.h">
+      <Filter>Editor Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="SkydomeSettingDlg.h">
+      <Filter>Editor Panel\Scene Editor\Skydome</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorAxis.h">
+      <Filter>Editor Panel\Scene Editor\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonObjDef.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObjectTree.h">
+      <Filter>Editor Panel\Scene Editor\Object\Object Explorer</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectTreeCtrl.h">
+      <Filter>Editor Panel\Scene Editor\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="AddObjOperation.h">
+      <Filter>Editor Panel\Scene Editor\Object\Object Operation</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectObjHandler.h">
+      <Filter>Editor Panel\Scene Editor\Object\Object Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="DragScaleHandler.h">
+      <Filter>Editor Panel\Scene Editor\Object\Object Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="DragRotateHandler.h">
+      <Filter>Editor Panel\Scene Editor\Object\Object Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="DragMoveHandler.h">
+      <Filter>Editor Panel\Scene Editor\Object\Object Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="DragHandler.h">
+      <Filter>Editor Panel\Scene Editor\Object\Object Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObjectManager.h">
+      <Filter>Editor Panel\Scene Editor\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectEditorDlg.h">
+      <Filter>Editor Panel\Scene Editor\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="AddObjectHandler.h">
+      <Filter>Editor Panel\Scene Editor\Object\Object Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="AddLightObjectHandler.h">
+      <Filter>Editor Panel\Scene Editor\Object\Object Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="CloneObjHandler.h">
+      <Filter>Editor Panel\Scene Editor\Object\Object Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjAttributeOperation.h">
+      <Filter>Editor Panel\Scene Editor\Object\Object Operation</Filter>
+    </ClInclude>
+    <ClInclude Include="LightmapConfigDlg.h">
+      <Filter>Save &amp; Load\Lightmap</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledFiles.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LightMapBuildDlg.h">
+      <Filter>Save &amp; Load\Lightmap</Filter>
+    </ClInclude>
+    <ClInclude Include="ExternLibrary.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MapLoadingDlg.h">
+      <Filter>Save &amp; Load</Filter>
+    </ClInclude>
+    <ClInclude Include="NewMapLoadingDlg.h">
+      <Filter>Save &amp; Load</Filter>
+    </ClInclude>
+    <ClInclude Include="NewMapConfigDlg.h">
+      <Filter>Save &amp; Load</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiPlatformResPackupDlg.h">
+      <Filter>Save &amp; Load\Multi-Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="FileConvert.h">
+      <Filter>Save &amp; Load\Multi-Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="PackupResProgressDlg.h">
+      <Filter>Save &amp; Load\Multi-Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjLibToolbar.h">
+      <Filter>Editor Panel\Scene Editor\Object\Object Explorer</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonDockablePane.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FindResultPane.h">
+      <Filter>Editor Panel\Scene Editor\Object\Object Find</Filter>
+    </ClInclude>
+    <ClInclude Include="FindResultList.h">
+      <Filter>Editor Panel\Scene Editor\Object\Object Find</Filter>
+    </ClInclude>
+    <ClInclude Include="FindDlg.h">
+      <Filter>Editor Panel\Scene Editor\Object\Object Find</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonDefine.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjAttributePane.h">
+      <Filter>Editor Panel\Scene Editor\Object\Object Attribute</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributeGroupGridProperty.h">
+      <Filter>Editor Panel\Scene Editor\Object\Object Attribute</Filter>
+    </ClInclude>
+    <ClInclude Include="AttributeGridProperty.h">
+      <Filter>Editor Panel\Scene Editor\Object\Object Attribute</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingCheckProperty.h">
+      <Filter>Setting Pane</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjGridCheckProperty.h">
+      <Filter>Editor Panel\Scene Editor\Object\Object Attribute</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SGPLibraryCode\modules\sgp_core\sgp_core.cpp">
+      <Filter>Render Interface\Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SGPLibraryCode\modules\sgp_enginedevice\sgp_enginedevice.cpp">
+      <Filter>Render Interface\Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SGPLibraryCode\modules\sgp_math\sgp_math.cpp">
+      <Filter>Render Interface\Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SGPLibraryCode\modules\sgp_model\sgp_model.cpp">
+      <Filter>Render Interface\Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SGPLibraryCode\modules\sgp_particle\sgp_particle.cpp">
+      <Filter>Render Interface\Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SGPLibraryCode\modules\sgp_render\sgp_render.cpp">
+      <Filter>Render Interface\Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SGPLibraryCode\modules\sgp_world\sgp_world.cpp">
+      <Filter>Render Interface\Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrame.cpp">
+      <Filter>MainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldEditorDoc.cpp">
+      <Filter>MainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldEditorView.cpp">
+      <Filter>MainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Render Interface\WorldEditorRender.cpp">
+      <Filter>Render Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Render Interface\WorldEditorRenderInterface.cpp">
+      <Filter>Render Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Render Interface\WorldEditorCamera.cpp">
+      <Filter>Render Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="LogViewer Pane\LogViewerEdit.cpp">
+      <Filter>LogViewer Pane</Filter>
+    </ClCompile>
+    <ClCompile Include="LogViewer Pane\RichEditLogger.cpp">
+      <Filter>LogViewer Pane</Filter>
+    </ClCompile>
+    <ClCompile Include="LogViewer Pane\LogViewerPane.cpp">
+      <Filter>LogViewer Pane</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SGP_ModelViewer\CommonVisualManager.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpFunction.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene Explorer\SceneExplorerPane.cpp">
+      <Filter>Editor Panel\Scene Editor\Object\Object Explorer</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain Editor\TerrainEditorPane.cpp">
+      <Filter>Editor Panel\Terrain Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting Pane\SettingDlg.cpp">
+      <Filter>Setting Pane</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting Pane\SettingPane.cpp">
+      <Filter>Setting Pane</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldEditorConfig.cpp">
+      <Filter>WorldEditor Config</Filter>
+    </ClCompile>
+    <ClCompile Include="IOperation.cpp">
+      <Filter>Operation Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="OperationManager.cpp">
+      <Filter>Operation Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SGP_ModelViewer\ExpandButton.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SGP_ModelViewer\ParamIndicator.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainEditorDlg.cpp">
+      <Filter>Editor Panel\Terrain Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="FocusButton.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageCtrl.cpp">
+      <Filter>Editor Panel\Terrain Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="ThumbnailGenerator.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageStatic.cpp">
+      <Filter>Texture Info</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageShowDlg.cpp">
+      <Filter>Texture Info</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureInfoDlg.cpp">
+      <Filter>Texture Info</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SGP_ModelViewer\RoundButton.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainHeightHandler.cpp">
+      <Filter>Editor Panel\Terrain Editor\Terrain Height</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainHeightDlg.cpp">
+      <Filter>Editor Panel\Terrain Editor\Terrain Height</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainHeightOperation.cpp">
+      <Filter>Editor Panel\Terrain Editor\Terrain Height</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainTextureDlg.cpp">
+      <Filter>Editor Panel\Terrain Editor\Terrain Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainTextureHandler.cpp">
+      <Filter>Editor Panel\Terrain Editor\Terrain Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainTextureLoadDlg.cpp">
+      <Filter>Editor Panel\Terrain Editor\Terrain Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainTextureOperation.cpp">
+      <Filter>Editor Panel\Terrain Editor\Terrain Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainGrassDlg.cpp">
+      <Filter>Editor Panel\Terrain Editor\Terrain Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainWaterDlg.cpp">
+      <Filter>Editor Panel\Terrain Editor\Terrain Water</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureListCtrl.cpp">
+      <Filter>Editor Panel\Terrain Editor\Terrain Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainGrassHandler.cpp">
+      <Filter>Editor Panel\Terrain Editor\Terrain Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainGrassOperation.cpp">
+      <Filter>Editor Panel\Terrain Editor\Terrain Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainWaterHandler.cpp">
+      <Filter>Editor Panel\Terrain Editor\Terrain Water</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainWaterOperation.cpp">
+      <Filter>Editor Panel\Terrain Editor\Terrain Water</Filter>
+    </ClCompile>
+    <ClCompile Include="GrassListCtrl.cpp">
+      <Filter>Editor Panel\Terrain Editor\Terrain Grass</Filter>
+    </ClCompile>
+    <ClCompile Include="WaterImageCtrl.cpp">
+      <Filter>Editor Panel\Terrain Editor\Terrain Water</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneEditorDlg.cpp">
+      <Filter>Editor Panel\Scene Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="FolderDialog.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObjectDlg.cpp">
+      <Filter>Editor Panel\Scene Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldEditor.cpp">
+      <Filter>MainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SGP_ModelViewer\ColorButton.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldMapManager.cpp">
+      <Filter>Save &amp; Load</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseMsgHandler.cpp">
+      <Filter>Editor Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseMsgInterface.cpp">
+      <Filter>Editor Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorPane.cpp">
+      <Filter>Editor Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorTabCtrl.cpp">
+      <Filter>Editor Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="SkydomeSettingDlg.cpp">
+      <Filter>Editor Panel\Scene Editor\Skydome</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorAxis.cpp">
+      <Filter>Editor Panel\Scene Editor\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectTreeCtrl.cpp">
+      <Filter>Editor Panel\Scene Editor\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObjectTree.cpp">
+      <Filter>Editor Panel\Scene Editor\Object\Object Explorer</Filter>
+    </ClCompile>
+    <ClCompile Include="AddObjOperation.cpp">
+      <Filter>Editor Panel\Scene Editor\Object\Object Operation</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectObjHandler.cpp">
+      <Filter>Editor Panel\Scene Editor\Object\Object Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="DragScaleHandler.cpp">
+      <Filter>Editor Panel\Scene Editor\Object\Object Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="DragRotateHandler.cpp">
+      <Filter>Editor Panel\Scene Editor\Object\Object Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="DragMoveHandler.cpp">
+      <Filter>Editor Panel\Scene Editor\Object\Object Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="DragHandler.cpp">
+      <Filter>Editor Panel\Scene Editor\Object\Object Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObjectManager.cpp">
+      <Filter>Editor Panel\Scene Editor\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectEditorDlg.cpp">
+      <Filter>Editor Panel\Scene Editor\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="AddObjectHandler.cpp">
+      <Filter>Editor Panel\Scene Editor\Object\Object Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="AddLightObjectHandler.cpp">
+      <Filter>Editor Panel\Scene Editor\Object\Object Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="CloneObjHandler.cpp">
+      <Filter>Editor Panel\Scene Editor\Object\Object Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjAttributeOperation.cpp">
+      <Filter>Editor Panel\Scene Editor\Object\Object Operation</Filter>
+    </ClCompile>
+    <ClCompile Include="LightmapConfigDlg.cpp">
+      <Filter>Save &amp; Load\Lightmap</Filter>
+    </ClCompile>
+    <ClCompile Include="CompiledFiles.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LightMapBuildDlg.cpp">
+      <Filter>Save &amp; Load\Lightmap</Filter>
+    </ClCompile>
+    <ClCompile Include="ExternLibrary.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MapLoadingDlg.cpp">
+      <Filter>Save &amp; Load</Filter>
+    </ClCompile>
+    <ClCompile Include="NewMapLoadingDlg.cpp">
+      <Filter>Save &amp; Load</Filter>
+    </ClCompile>
+    <ClCompile Include="NewMapConfigDlg.cpp">
+      <Filter>Save &amp; Load</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiPlatformResPackupDlg.cpp">
+      <Filter>Save &amp; Load\Multi-Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="FileConvert.cpp">
+      <Filter>Save &amp; Load\Multi-Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="PackupResProgressDlg.cpp">
+      <Filter>Save &amp; Load\Multi-Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjLibToolbar.cpp">
+      <Filter>Editor Panel\Scene Editor\Object\Object Explorer</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonDockablePane.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FindResultPane.cpp">
+      <Filter>Editor Panel\Scene Editor\Object\Object Find</Filter>
+    </ClCompile>
+    <ClCompile Include="FindResultList.cpp">
+      <Filter>Editor Panel\Scene Editor\Object\Object Find</Filter>
+    </ClCompile>
+    <ClCompile Include="FindDlg.cpp">
+      <Filter>Editor Panel\Scene Editor\Object\Object Find</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjAttributePane.cpp">
+      <Filter>Editor Panel\Scene Editor\Object\Object Attribute</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributeGroupGridProperty.cpp">
+      <Filter>Editor Panel\Scene Editor\Object\Object Attribute</Filter>
+    </ClCompile>
+    <ClCompile Include="AttributeGridProperty.cpp">
+      <Filter>Editor Panel\Scene Editor\Object\Object Attribute</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingCheckProperty.cpp">
+      <Filter>Setting Pane</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjGridCheckProperty.cpp">
+      <Filter>Editor Panel\Scene Editor\Object\Object Attribute</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SGP_WorldEditor.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

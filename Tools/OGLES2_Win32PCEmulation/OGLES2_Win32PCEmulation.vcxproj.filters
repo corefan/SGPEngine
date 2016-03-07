@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Shell">
+      <UniqueIdentifier>{afdaff99-f36c-4309-a417-a2c70392835c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Shell">
+      <UniqueIdentifier>{28d5cb91-1294-45a8-b768-4427dfed4e67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineFiles">
+      <UniqueIdentifier>{a528ad1e-0874-4af3-bea4-ef55c18ab817}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OGLES2_Win32.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OtherLib\OpenGLES2\Shell\PVRShell.cpp">
+      <Filter>源文件\Shell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OtherLib\OpenGLES2\Shell\OS\Windows\PVRShellOS.cpp">
+      <Filter>源文件\Shell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OtherLib\OpenGLES2\Shell\API\KEGL\PVRShellAPI.cpp">
+      <Filter>源文件\Shell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SGPLibraryCode\modules\sgp_core\sgp_core.cpp">
+      <Filter>EngineFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SGPLibraryCode\modules\sgp_math\sgp_math.cpp">
+      <Filter>EngineFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SGPLibraryCode\modules\sgp_model\sgp_model.cpp">
+      <Filter>EngineFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SGPLibraryCode\modules\sgp_particle\sgp_particle.cpp">
+      <Filter>EngineFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SGPLibraryCode\modules\sgp_render\sgp_render.cpp">
+      <Filter>EngineFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SGPLibraryCode\modules\sgp_world\sgp_world.cpp">
+      <Filter>EngineFiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\OtherLib\OpenGLES2\Shell\PVRShellImpl.h">
+      <Filter>头文件\Shell</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OtherLib\OpenGLES2\Shell\PVRShell.h">
+      <Filter>头文件\Shell</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OtherLib\OpenGLES2\Shell\API\KEGL\PVRShellAPI.h">
+      <Filter>头文件\Shell</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\OtherLib\OpenGLES2\Shell\OS\Windows\PVRShellOS.h">
+      <Filter>头文件\Shell</Filter>
+    </ClInclude>
+    <ClInclude Include="OGLES2_Win32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OGLES2_Win32Camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OGLES2_Win32Logger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

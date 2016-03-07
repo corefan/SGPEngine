@@ -1,0 +1,12 @@
+#pragma once
+
+#define DLG_BKCOLOR_RED 236
+#define DLG_BKCOLOR_GREEN 233
+#define DLG_BKCOLOR_BLUE 216
+
+#define BUTTON_RADIUS 6
+#define RULER_HEIGHT 4
+
+#define BUTTON_HEIGHT 20
+
+#define EXPAND_BUTTON_USE_GDI_DRAW

@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Main Window">
+      <UniqueIdentifier>{af77498c-5199-4aa0-9fd5-31dd89de4da2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ModelDetail Pane">
+      <UniqueIdentifier>{55329907-1d7d-4415-bc3f-76208a5cee88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Pane">
+      <UniqueIdentifier>{4ba0de38-59d9-4f65-bba0-3efd9310679b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log Viewer Pane">
+      <UniqueIdentifier>{736497ca-10d3-4cae-ba73-781cb3ec188f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AnimationControl Pane">
+      <UniqueIdentifier>{54c7576f-149b-4561-994d-4f1edf4f08db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ModelViewer Config">
+      <UniqueIdentifier>{84a01176-6e35-442b-98c9-ed1ce9fb615e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Settting Pane">
+      <UniqueIdentifier>{51df336b-6c80-4c81-a2a2-32f8677296a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common Files">
+      <UniqueIdentifier>{3ca9a128-b475-477f-8eb1-116e53ded169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render Interface">
+      <UniqueIdentifier>{80055097-74de-4319-bd26-3f9288446577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Export Interface">
+      <UniqueIdentifier>{dd177ed6-4511-443a-8b8d-ec1321a8bd72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render Interface\Engine Files">
+      <UniqueIdentifier>{80ed52e4-6290-4f67-9d95-4554844fabca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particle Module">
+      <UniqueIdentifier>{4aef7474-564e-4fea-873c-60767e4e46ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SGP_ModelViewer.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="res\SGP_ModelViewer.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\resource pane.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bmp00001.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+    <None Include="res\bmp00002.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SGP_ModelViewer.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SGP_ModelViewer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelViewerDoc.cpp">
+      <Filter>Main Window</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrame.cpp">
+      <Filter>Main Window</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelViewerView.cpp">
+      <Filter>Main Window</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelViewer_Interface.cpp">
+      <Filter>Export Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourcePane.cpp">
+      <Filter>Resource Pane</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceTabCtrl.cpp">
+      <Filter>Resource Pane</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceTreeCtrl.cpp">
+      <Filter>Resource Pane</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelDetailPane.cpp">
+      <Filter>ModelDetail Pane</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelControlPane.cpp">
+      <Filter>AnimationControl Pane</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelControlDlg.cpp">
+      <Filter>AnimationControl Pane</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SGPLibraryCode\modules\sgp_enginedevice\sgp_enginedevice.cpp">
+      <Filter>Render Interface\Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SGPLibraryCode\modules\sgp_math\sgp_math.cpp">
+      <Filter>Render Interface\Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SGPLibraryCode\modules\sgp_model\sgp_model.cpp">
+      <Filter>Render Interface\Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SGPLibraryCode\modules\sgp_render\sgp_render.cpp">
+      <Filter>Render Interface\Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelViewerThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceToolBar.cpp">
+      <Filter>Resource Pane</Filter>
+    </ClCompile>
+    <ClCompile Include="LogViewerPane.cpp">
+      <Filter>Log Viewer Pane</Filter>
+    </ClCompile>
+    <ClCompile Include="LogViewerToolBar.cpp">
+      <Filter>Log Viewer Pane</Filter>
+    </ClCompile>
+    <ClCompile Include="LogViewerEdit.cpp">
+      <Filter>Log Viewer Pane</Filter>
+    </ClCompile>
+    <ClCompile Include="RichEditLogger.cpp">
+      <Filter>Log Viewer Pane</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelViewerCamera.cpp">
+      <Filter>Render Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelViewerRender.cpp">
+      <Filter>Render Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelViewerRenderInterface.cpp">
+      <Filter>Render Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelViewerConfig.cpp">
+      <Filter>ModelViewer Config</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingPane.cpp">
+      <Filter>Settting Pane</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingDlg.cpp">
+      <Filter>Settting Pane</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimProgressBar.cpp">
+      <Filter>AnimationControl Pane</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorEdit.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RoundButton.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorButton.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SGPLibraryCode\modules\sgp_particle\sgp_particle.cpp">
+      <Filter>Render Interface\Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyGroupGridProperty.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonPropertyGridProperty.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageShowDlg.cpp">
+      <Filter>Resource Pane</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageStatic.cpp">
+      <Filter>Resource Pane</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureInfoDlg.cpp">
+      <Filter>Resource Pane</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpandButton.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonDockPane.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingParticleDlg.cpp">
+      <Filter>Settting Pane</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SGPLibraryCode\modules\sgp_world\sgp_world.cpp">
+      <Filter>Render Interface\Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditPropertyGridProperty.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelDetailConfigDlg.cpp">
+      <Filter>ModelDetail Pane</Filter>
+    </ClCompile>
+    <ClCompile Include="DetailPropertyGridCtrl.cpp">
+      <Filter>ModelDetail Pane</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpFunction.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleZoneGridProperty.cpp">
+      <Filter>Particle Module</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticlePropertyGridCtrl.cpp">
+      <Filter>Particle Module</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleEmitterGridProperty.cpp">
+      <Filter>Particle Module</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleTypesGridProperty.cpp">
+      <Filter>Particle Module</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleModifierGridProperty.cpp">
+      <Filter>Particle Module</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleRenderGridProperty.cpp">
+      <Filter>Particle Module</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleModelParamGridProperty.cpp">
+      <Filter>Particle Module</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleModelGridProperty.cpp">
+      <Filter>Particle Module</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleGroupGridProperty.cpp">
+      <Filter>Particle Module</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleMenuGridProperty.cpp">
+      <Filter>Particle Module</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleEmittersGridProperty.cpp">
+      <Filter>Particle Module</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleModifiersGridProperty.cpp">
+      <Filter>Particle Module</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystemDlg.cpp">
+      <Filter>Particle Module</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleEntryGridProperty.cpp">
+      <Filter>Particle Module</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleEntrysGridProperty.cpp">
+      <Filter>Particle Module</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleCheckGridProperty.cpp">
+      <Filter>Particle Module</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleConfigDlg.cpp">
+      <Filter>Particle Module</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleConfigPane.cpp">
+      <Filter>Particle Module</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleToolbar.cpp">
+      <Filter>Particle Module</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamIndicator.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonVisualManager.cpp">
+      <Filter>Common Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertyGridCheckProperty.cpp">
+      <Filter>ModelDetail Pane</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuPropertyGridProperty.cpp">
+      <Filter>ModelDetail Pane</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SGPLibraryCode\modules\sgp_core\sgp_core.cpp">
+      <Filter>Render Interface\Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleGroupRenameDlg.cpp">
+      <Filter>Particle Module</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleInterpolatorGraphProperty.cpp">
+      <Filter>Particle Module</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleInterpolatorGraphDlg.cpp">
+      <Filter>Particle Module</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleInterpolatorGraph.cpp">
+      <Filter>Particle Module</Filter>
+    </ClCompile>
+    <ClCompile Include="CompiledFiles.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SGP_ModelViewer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrame.h">
+      <Filter>Main Window</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelViewerDoc.h">
+      <Filter>Main Window</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelViewerView.h">
+      <Filter>Main Window</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelViewer_Interface.h">
+      <Filter>Export Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourcePane.h">
+      <Filter>Resource Pane</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceTabCtrl.h">
+      <Filter>Resource Pane</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceTreeCtrl.h">
+      <Filter>Resource Pane</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelDetailPane.h">
+      <Filter>ModelDetail Pane</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelControlPane.h">
+      <Filter>AnimationControl Pane</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelControlDlg.h">
+      <Filter>AnimationControl Pane</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelViewerCamera.h">
+      <Filter>Render Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelViewerThread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceToolBar.h">
+      <Filter>Resource Pane</Filter>
+    </ClInclude>
+    <ClInclude Include="LogViewerPane.h">
+      <Filter>Log Viewer Pane</Filter>
+    </ClInclude>
+    <ClInclude Include="LogViewerToolBar.h">
+      <Filter>Log Viewer Pane</Filter>
+    </ClInclude>
+    <ClInclude Include="LogViewerEdit.h">
+      <Filter>Log Viewer Pane</Filter>
+    </ClInclude>
+    <ClInclude Include="RichEditLogger.h">
+      <Filter>Log Viewer Pane</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelViewerRender.h">
+      <Filter>Render Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelViewerRenderInterface.h">
+      <Filter>Render Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelViewerConfig.h">
+      <Filter>ModelViewer Config</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingPane.h">
+      <Filter>Settting Pane</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingDlg.h">
+      <Filter>Settting Pane</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimProgressBar.h">
+      <Filter>AnimationControl Pane</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgScrollMacro.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorEdit.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RoundButton.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorButton.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyGroupGridProperty.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonPropertyGridProperty.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DetailPropertyGridCtrl.h">
+      <Filter>ModelDetail Pane</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageShowDlg.h">
+      <Filter>Resource Pane</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageStatic.h">
+      <Filter>Resource Pane</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureInfoDlg.h">
+      <Filter>Resource Pane</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpandButton.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonDockPane.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonMacroDef.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingParticleDlg.h">
+      <Filter>Settting Pane</Filter>
+    </ClInclude>
+    <ClInclude Include="EditPropertyGridProperty.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelDetailConfigDlg.h">
+      <Filter>ModelDetail Pane</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpFunction.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleZoneGridProperty.h">
+      <Filter>Particle Module</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticlePropertyGridCtrl.h">
+      <Filter>Particle Module</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEmitterGridProperty.h">
+      <Filter>Particle Module</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleTypesGridProperty.h">
+      <Filter>Particle Module</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleModifierGridProperty.h">
+      <Filter>Particle Module</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleRenderGridProperty.h">
+      <Filter>Particle Module</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleModelParamGridProperty.h">
+      <Filter>Particle Module</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleModelGridProperty.h">
+      <Filter>Particle Module</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleGroupGridProperty.h">
+      <Filter>Particle Module</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleCtrlMsgDef.h">
+      <Filter>Particle Module</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleMenuGridProperty.h">
+      <Filter>Particle Module</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEmittersGridProperty.h">
+      <Filter>Particle Module</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleModifiersGridProperty.h">
+      <Filter>Particle Module</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystemDlg.h">
+      <Filter>Particle Module</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEntryGridProperty.h">
+      <Filter>Particle Module</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEntrysGridProperty.h">
+      <Filter>Particle Module</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleCheckGridProperty.h">
+      <Filter>Particle Module</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleConfigDlg.h">
+      <Filter>Particle Module</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleConfigPane.h">
+      <Filter>Particle Module</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleToolbar.h">
+      <Filter>Particle Module</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamIndicator.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonVisualManager.h">
+      <Filter>Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertyGridCheckProperty.h">
+      <Filter>ModelDetail Pane</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuPropertyGridProperty.h">
+      <Filter>ModelDetail Pane</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleGroupRenameDlg.h">
+      <Filter>Particle Module</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleInterpolatorGraphProperty.h">
+      <Filter>Particle Module</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleInterpolatorGraphDlg.h">
+      <Filter>Particle Module</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleInterpolatorGraph.h">
+      <Filter>Particle Module</Filter>
+    </ClInclude>
+    <ClInclude Include="CompiledFiles.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SGP_ModelViewer.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

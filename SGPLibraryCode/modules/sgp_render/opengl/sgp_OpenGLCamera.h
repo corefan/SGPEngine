@@ -27,7 +27,7 @@ public:
 
 public:
 	COpenGLCamera(ISGPRenderDevice *renderdevice) : m_pRenderDevice(renderdevice),
-		m_fNear(0), m_fFar(0), m_fFov(0), m_Mode(SGPCT_PERSPECTIVE), m_CameraPos(0,0,0)
+		m_fNear(0.1f), m_fFar(100), m_fFov(45), m_Mode(SGPCT_PERSPECTIVE), m_CameraPos(0,0,0)
 	{
 		m_mOpenGLProjTrans.Identity();
 		m_mOpenGLProjTrans._33 = 2;

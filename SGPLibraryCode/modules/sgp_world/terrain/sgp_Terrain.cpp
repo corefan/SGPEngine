@@ -253,7 +253,7 @@ void CSGPTerrain::RemoveSceneObject( const ISGPObject* pObj, uint32 chunkIndex )
 
 void CSGPTerrain::GeneratePerlinNoiseToHeightmap(float scale, int32 octaves, float falloff)
 {
-	CPerlinNoise perlin;
+	CPerlinNoise perlin(Time::currentTimeMillis());
 	uint32 index = 0;
 
 	for( int height=0; height <= (int)m_terrainChunkSize*SGPTT_TILENUM; height++ )

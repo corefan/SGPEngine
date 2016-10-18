@@ -7,10 +7,10 @@ namespace ColourHelpers
 }
 
 Colour BLACKCOLOR(0,0,0);
-Colour WHITECOLOR(1,1,1);
-Colour REDCOLOR(1,0,0);
-Colour GREENCOLOR(0,1,0);
-Colour BLUECOLOR(0,0,1);
+Colour WHITECOLOR(255,255,255);
+Colour REDCOLOR(255,0,0);
+Colour GREENCOLOR(0,255,0);
+Colour BLUECOLOR(0,0,255);
 
 //==============================================================================
 Colour::Colour() noexcept

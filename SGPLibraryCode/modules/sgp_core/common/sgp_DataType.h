@@ -136,6 +136,30 @@ const Type findMinimum (const Type* data, int numValues)
     return result;
 }
 
+// Find the Minimum power of two Number larger than value
+// If value itself is power of 2, return itself
+// If value itself is less or equal 1, return itself
+template <typename Type>
+const Type findMinimumPower2Number (const Type value)
+{
+	Type rt = value;
+    if (rt <= 1) return rt;  
+    if (value & (value-1))   
+    {  
+        Type result = 1;  
+        while(rt)  
+        {
+            rt >>= 1;  
+            result <<= 1;  
+        }  
+        return result;
+    }  
+    else  
+    {  
+        return value;  
+    }     
+}
+
 /** Scans an array of values, returning the maximum value that it contains. */
 template <typename Type>
 const Type findMaximum (const Type* values, int numValues)

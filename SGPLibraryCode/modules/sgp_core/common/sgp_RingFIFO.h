@@ -70,6 +70,22 @@ public:
 		return m_size - getSize();
 	}
 
+	bool contains( DataType data )
+	{
+        if( m_in >= m_out )
+        {
+			for (unsigned int i = m_out; i < m_in; ++i)
+				if (m_buffer[i] == data) return true;
+		}
+		else
+		{
+			for (unsigned int i = 0; i < m_in; ++i)
+				if (m_buffer[i] == data) return true;
+			for (unsigned int i = m_out; i < m_size; ++i)
+				if (m_buffer[i] == data) return true;
+		}
+		return false;
+	}
 	// puts some data into the FIFO, return actual pushed number of value 
 	// If this FIFO is full, return 0
 	unsigned int push( DataType *pBuffer, unsigned int len ) 

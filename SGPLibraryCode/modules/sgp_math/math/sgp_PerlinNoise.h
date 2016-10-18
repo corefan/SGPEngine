@@ -15,7 +15,7 @@ public:
 		PerlinNoise_TableMask = PerlinNoise_TableSize-1,
 	};
 
-	inline CPerlinNoise() { setup(); }
+	inline CPerlinNoise(int64 PerlinSeed) : m_PerlinSeed(PerlinSeed) { setup(); }
 	~CPerlinNoise() {}
 
 	inline float noise(int x, int y, float scale);
@@ -24,6 +24,7 @@ public:
 private:
 	Vector2D m_vecTable[PerlinNoise_TableSize];
 	uint8 m_lut[PerlinNoise_TableSize];
+	int64 m_PerlinSeed;
 
 private:
 	// Private Functions...
@@ -35,6 +36,7 @@ private:
 inline void CPerlinNoise::setup()
 {
 	Random r;
+	r.setSeed(m_PerlinSeed);
 
 	float step = 6.24f / PerlinNoise_TableSize;
 	float val = 0.0f;
